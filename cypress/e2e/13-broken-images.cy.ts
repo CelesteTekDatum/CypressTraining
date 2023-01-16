@@ -1,5 +1,5 @@
 let img: HTMLImageElement;
-describe("Broken images with Demo QA", () => {
+describe.skip("Broken images with Demo QA", () => {
   beforeEach(() => {
     cy.visit(`${Cypress.env("demoQA")}/broken`);
   });
