@@ -1,6 +1,6 @@
 describe("empty spec", () => {
   it("passes", () => {
-    cy.log("hello world");
+    cy.log("hello world :D");
   });
   it("Typescript Introduction", () => {
     let stringVariable: string = "9";
